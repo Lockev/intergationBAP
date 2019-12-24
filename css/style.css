@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "Sofia Pro";
+  src: url("../font/SofiaProExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sofia Pro";
+  src: url("../font/SofiaProLight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sofia Pro";
+  src: url("../font/SofiaProRegular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sofia Pro";
+  src: url("../font/SofiaProBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  background: url("../img/background/backgroundBlue.png") no-repeat center fixed;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+}
+
+nav {
+  padding: 0 !important;
+  font-family: Sofia Pro;
+  font-size: 19px;
+  font-weight: normal;
+}
+
+nav .leftPart li {
+  padding-left: 20px;
+}
+
+nav .leftPart li a {
+  color: white !important;
+}
+
+nav li a {
+  transition: color 0.1s ease-in-out;
+}
+nav li a:hover {
+  color: #eaa968 !important;
+}
+
+.navbar-toggler {
+  border: 2px solid #343a40;
+}
+
+.navbar-toggler-icon {
+  background-image: url("../img/items/bars-solid.svg");
+}
+
+/* Cards Container */
+.displayCards {
+  margin: 10px 3.5vw;
+  width: 55vw;
+}
+
+/* Profile Cards */
+.profile-card {
+  margin: 20px 0;
+  padding: 0 !important;
+  font-family: Sofia Pro;
+  font-weight: normal;
+}
+.profile-card .btn {
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 7px 20px;
+}
+.profile-card .card-img-block {
+  width: 91%;
+  margin: 0 auto;
+  position: relative;
+  top: -20px;
+}
+.profile-card .card-img-block img {
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.63);
+}
+.profile-card .card-text {
+  height: 66px;
+}
+.profile-card h5 {
+  color: #5793ce;
+  font-weight: 600;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.profile-card p {
+  font-size: 14px;
+  font-weight: 300;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.profile-card .btn {
+  background-color: #5793ce;
+  border-color: #5793ce;
+  color: #fff;
+  transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out, border-color 0.1s ease-in-out;
+}
+
+.profile-card a:hover {
+  background-color: #eaa968;
+  border-color: #eaa968;
+}
+
+@media only screen and (max-width: 992px) {
+  nav .leftPart li {
+    padding-left: 0px;
+  }
+  nav li a {
+    color: white !important;
+  }
+  nav li a:hover {
+    color: #eaa968 !important;
+  }
+}

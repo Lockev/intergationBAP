@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scope - ?</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <link rel="stylesheet" href="../../css/style.css">
+  <script src="../../javascript/script.js"></script>
+
+
+</head>
+
+<body>
+
+  <!-- Calling navbar -->
+  <div include-navbar="../navbarTemplate.html"></div>
+  <script>
+    includeHTML("include-navbar");
+  </script>
+  <div class="displayCards">
+    <div class="row" id="allCards">
+      <!-- Calling Etudiant card -->
+      <!-- Simulation de génération automatique de cartes depuis le serveur -->
+
+      <!-- Carte 1 -->
+      <div class="col-lg-4">
+        <div class="card profile-card">
+          <div class="card-img-block">
+            <img class="card-img-top" src="/img/profilePictures/florent-vigot-Flow.jpg"
+              alt="Photo de profil de 'user.Prenom'">
+          </div>
+          <div class="card-body pt-0">
+            <h5 class="card-title">Florent Vigot</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn">Voir le profil -></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carte 2 -->
+      <div class="col-lg-4">
+        <div class="card profile-card">
+          <div class="card-img-block">
+            <img class="card-img-top" src="/img/profilePictures/florent-vigot-Flow.jpg"
+              alt="Photo de profil de 'user.Prenom'">
+          </div>
+          <div class="card-body pt-0">
+            <h5 class="card-title">Florent Vigot</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn">Voir le profil -></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carte 3 -->
+      <div class="col-lg-4">
+        <div class="card profile-card">
+          <div class="card-img-block">
+            <img class="card-img-top" src="/img/profilePictures/florent-vigot-Flow.jpg"
+              alt="Photo de profil de 'user.Prenom'">
+          </div>
+          <div class="card-body pt-0">
+            <h5 class="card-title">Florent Vigot</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content. Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn">Voir le profil -></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carte 4 -->
+      <div class="col-lg-4">
+        <div class="card profile-card">
+          <div class="card-img-block">
+            <img class="card-img-top" src="/img/profilePictures/florent-vigot-Flow.jpg"
+              alt="Photo de profil de 'user.Prenom'">
+          </div>
+          <div class="card-body pt-0">
+            <h5 class="card-title">Florent Vigot</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn">Voir le profil -></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <script>
+    for (var i = 0; i < 8; i++) {
+      includeItem = "include-etudiantCard" + i
+      divHtml = "<div " + includeItem + "='etudiantCard.html'></div>"
+      includeHTML(inculeItem);
+    }
+  </script> -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
