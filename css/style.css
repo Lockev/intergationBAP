@@ -47,6 +47,13 @@ nav .leftPart li a {
   color: white !important;
 }
 
+nav .rightPart {
+  padding-left: 12px;
+  padding-bottom: 3px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
 nav li a {
   transition: color 0.1s ease-in-out;
 }
@@ -65,7 +72,7 @@ nav li a:hover {
 /* Cards Container */
 .displayCards {
   margin: 10px 3.5vw;
-  width: 55vw;
+  width: calc(60vw - 20px);
 }
 
 /* Profile Cards */
@@ -121,10 +128,24 @@ nav li a:hover {
   border-color: #eaa968;
 }
 
+@media only screen and (max-width: 1300px) {
+  .displayCards {
+    margin: 10px 3.5vw;
+    width: calc(70vw - 14px);
+  }
+}
+
 @media only screen and (max-width: 992px) {
   nav .leftPart li {
     padding-left: 0px;
   }
+
+  nav .rightPart {
+    padding-left: 0px;
+    border-radius: 0px;
+    background-color: transparent;
+  }
+
   nav li a {
     color: white !important;
   }
