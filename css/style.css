@@ -143,7 +143,7 @@ nav li a:hover {
   nav .rightPart {
     padding-left: 0px;
     border-radius: 0px;
-    background-color: transparent;
+    background-color: inherit;
   }
 
   nav li a {
