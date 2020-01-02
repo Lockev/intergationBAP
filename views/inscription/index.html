@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scope - ?</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <link rel="stylesheet" href="../../css/style.css">
+  <script src="../../javascript/script.js"></script>
+
+
+</head>
+
+<body>
+  <!-- Calling navbar -->
+  <div include-navbar="../navbarTemplate.html"></div>
+  <script>
+    includeHTML("include-navbar");
+  </script>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-6">
+        <form action="" method="post">
+          <div class="form-group">
+            <label>Votre nom :</label>
+            <input type="text" name="name" class="form-control" placeholder="Ex : Dupont">
+          </div>
+          <div class="form-group">
+            <label>Votre prénom :</label>
+            <input type="text" name="name" class="form-control" placeholder="Ex : Jean">
+          </div>
+          <div class="form-group">
+            <label>Vous êtes un :</label>
+            <select class="form-control">
+              <option value="etudiant">Etudiant</option>
+              <option value="professionnel">Professionnel</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Votre e-mail :</label>
+            <input type="text" name="email" class="form-control" placeholder="Ex : example.name@gmail.com">
+          </div>
+          <div class="form-group">
+            <label>Votre mot de passe :</label>
+            <input type="password" name="password" class="form-control">
+          </div>
+          <div class="form-group">
+            <label>Confirmez votre mot de passe :</label>
+            <input type="password" name="confirmPassword" class="form-control">
+          </div>
+          <button type="submit" class="btn btn-primary mb-3">Suivant</button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

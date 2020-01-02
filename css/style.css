@@ -128,6 +128,13 @@ nav li a:hover {
   border-color: #eaa968;
 }
 
+/* Formulaires */
+
+label {
+  color: #fff;
+  font-size: 17px;
+}
+
 @media only screen and (max-width: 1300px) {
   .displayCards {
     margin: 10px 3.5vw;
