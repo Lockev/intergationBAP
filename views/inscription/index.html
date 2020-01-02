@@ -24,21 +24,42 @@
     <div class="row">
       <div class="col-md-6">
         <form action="" method="post">
-          <div class="form-group">
-            <label>Votre nom :</label>
-            <input type="text" name="name" class="form-control" placeholder="Ex : Dupont">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>Votre nom :</label>
+                <input type="text" name="lastName" class="form-control" placeholder="Ex : Dupont">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>Votre prénom :</label>
+                <input type="text" name="firstName" class="form-control" placeholder="Ex : Jean">
+              </div>
+            </div>
           </div>
           <div class="form-group">
-            <label>Votre prénom :</label>
-            <input type="text" name="name" class="form-control" placeholder="Ex : Jean">
+            <label>Votre pseudo :</label>
+            <input type="text" name="username" class="form-control" placeholder="Ex : Lock">
           </div>
-          <div class="form-group">
-            <label>Vous êtes un :</label>
-            <select class="form-control">
-              <option value="etudiant">Etudiant</option>
-              <option value="professionnel">Professionnel</option>
-            </select>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>Vous êtes un :</label>
+                <select class="form-control">
+                  <option value="etudiant">Etudiant</option>
+                  <option value="professionnel">Professionnel</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>Votre âge :</label>
+                <input type="number" name="age" class="form-control" placeholder="Ex : 18">
+              </div>
+            </div>
           </div>
+
           <div class="form-group">
             <label>Votre e-mail :</label>
             <input type="text" name="email" class="form-control" placeholder="Ex : example.name@gmail.com">
